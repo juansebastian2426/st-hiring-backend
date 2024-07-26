@@ -1,0 +1,12 @@
+GET localhost:3000/client-settings/123
+
+###
+PUT localhost:3000/client-settings/123
+Content-Type: application/json
+
+{
+  "fulfillmentFormat": {
+    "rfid": true,
+    "print": false
+  }
+}

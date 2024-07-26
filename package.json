@@ -18,9 +18,12 @@
     },
     "packageManager": "yarn@3.6.1",
     "dependencies": {
+        "dotenv": "^16.4.5",
         "express": "4.19.2",
+        "express-validator": "^7.1.0",
         "knex": "^3.1.0",
         "mongodb": "^6.8.0",
+        "mongoose": "^8.5.1",
         "pg": "^8.12.0"
     },
     "devDependencies": {
@@ -38,5 +41,8 @@
         "ts-loader": "^9.5.1",
         "ts-node": "^10.9.2",
         "typescript": "5.5.2"
+    },
+    "jest": {
+        "preset": "ts-jest"
     }
 }
